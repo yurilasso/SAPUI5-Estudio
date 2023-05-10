@@ -1,0 +1,18 @@
+<mvc:View 
+    controllerName="logaligroup.invoices.controller.App"
+    xmlns:mvc="sap.ui.core.mvc" 
+    displayBlock="true"
+    xmlns="sap.m">
+    <Shell id="shell">
+    <Page id="page" title="{i18n>title}">
+        <content> 
+           <Text id="_IDGenText1" text="Execution for SAPUI5"></Text>
+           <Button id ="btn1" text="{i18n>showHelloButtonText}" press="onShowHello"></Button>
+           <Input id="inp" value="{/recipient/name}" 
+           description="Hello {/recipient/name}"
+           valueLiveUpdate="true"
+           width="60%"></Input>
+        </content>
+    </Page>
+    </Shell>
+</mvc:View>
